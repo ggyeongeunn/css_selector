@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.section1 p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f86916;
+}
+/* children selector */
+.section2 > p{
+    color: #89a6e4;
+}
+section > p{
+    color: #972c62;
+}
